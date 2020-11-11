@@ -1,0 +1,243 @@
+.body2 {
+   
+    background-image: url("src\assets\images\img4.jfif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  }
+ .a{
+     margin-top: 90px;
+     margin-top: 150px;
+
+ }
+ .a h2{
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     font-weight: bold;
+     color: rgb(10, 10, 53);
+     font-size: 25px;
+    direction: rtl;
+ }
+ .a h5{
+     font-family: Arial, Helvetica, sans-serif;
+     color: gray;
+     direction: rtl;
+     font-size: 14px;
+ }
+ .btn{
+     background-color: orangered;
+     box-shadow: 0px 3px  3px rgb(233, 100, 52);
+     height: 45px;
+     width: 180px;
+     color: white;
+     margin-top: 30px;
+ }
+ .img6{
+     margin-top: 55px;
+     width: 450px;
+     height: 500px;
+     border-bottom-right-radius: 70px;
+     border-top-left-radius: 60px;
+ }
+.img7{
+    width: 240px; height: 200px;
+    border-radius: 10px;
+}
+.img8{
+    width: 170px; height: 120px; margin-right: 200px;margin-top: 100px; margin-left: 110px;
+    border-radius: 10px;
+}
+.img9{
+    margin-top: 10px;
+    border-radius: 10px;
+   
+}
+.img10{
+    width: 170px; height: 120px; 
+    border-radius: 10px;
+    margin-left: 1px;
+    margin-top: 1px;
+}  
+
+.row {
+    position: relative;
+}
+
+.mp4 {
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
+    height: 65vh !important;
+    /* min-width: 100% !important; */
+     width: 100%;
+    /* size: cover; */
+    border-radius: 5%;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    position: absolute;
+    margin-top: 80px;
+    /* insert video in correct template */
+    object-fit: cover;
+}
+
+.content {
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+    top: 3%;
+    z-index: 2;
+    padding: 20px;
+}
+
+
+.video-title {
+    font-size: 25px;
+    color: white;
+    position: absolute;
+    justify-content: center;
+    text-align: center;
+    margin-top: 140px;
+}
+
+.video-des {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 230px;
+    color: white;
+}
+.material-icons{
+color: white;
+position: absolute ;
+margin-left: 37px;
+margin-top: 20px;
+border-radius: 30px;
+margin-bottom: 200px;
+
+}
+.btn-mat {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 360px;
+    color: white;
+    
+}
+ 
+.watch{
+    /* margin-top: 2px; */
+     padding-top: 20px; 
+     padding-bottom: 5px;
+     /* margin-right: 70px; */
+}
+
+/* .Explore {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-right: auto;
+    margin-right: auto;
+    padding: 10vh;
+}
+
+.Explore .Ex-b {
+    font-size: 40px;
+    position: relative;
+    justify-content: center;
+    text-align: center;
+}
+
+.Explore .Ex-p {
+    position: absolute;
+    justify-content: center;
+    text-align: center;
+    margin-right: auto;
+    margin-right: auto;
+    margin-top: 25vh;
+    color: gray;
+} */
+
+
+.downvideo h3{
+    font-family: fantasy;
+    font-weight: bold;
+    margin-left: 440px;
+    margin-top: 170px;
+    font-size: 30px;
+}
+.downvideo p{
+    font-family: sans-serif;
+    margin-top: 30px;
+    margin-left:30px;
+    text-align: center;
+}
+
+.card-img-top{
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+     width: 320px; 
+    height: 200px; 
+    /* max-width: 30%; */
+    /* max-height: 30%; */
+    margin-left: auto;
+    margin-right: auto;
+}
+.card-body{
+    text-align: right;
+    /* height: 100px;; */
+}
+.card-body p{
+    font-size: 11px;
+   
+}
+.card-body  .list-group-item #price{
+    color: orangered;
+}
+.card{
+        width: 20rem;
+        height: 21rem;
+        border-top-right-radius: 20px;
+        border-top-left-radius: 20px;
+        margin-top: 2vh;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+  
+}
+
+#price{
+   
+    color: orangered;
+    font-weight: bold;
+    font-size: 14px;
+}
+#name{
+   
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+}
+.card-description{
+    margin-top: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    margin-bottom: 100px;
+    color: gray;
+}
+#btn-price{
+    margin-left: 450px;
+    margin-top: 30px;
+    box-shadow: 0px 5px  5px rgb(243, 110, 61);
+}
+   
+  .section3 {
+    margin-top: 8%;
+    padding-bottom: 200px;
+    width: 100%;
+}
+

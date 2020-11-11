@@ -1,0 +1,93 @@
+.body {
+   
+    background-image: url("src\assets\images\img1.webp");
+    height: 100%; 
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    margin-left: 130px;
+  
+  }
+  #order{
+    margin-top: 130px;
+  }
+ 
+  li {
+    float: left;
+    
+    
+  }
+  
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+  }
+  h4{
+    font-family:fantasy; 
+    color: darkblue; 
+    margin-top: 13px; 
+    margin-left: 40px;
+  }
+  h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkgreen; 
+    margin-top: 100px;
+     margin-left: 60px;
+     font-weight: bold;
+  }
+  
+  h6{
+    color: darkslategray; 
+    margin-left: 60px; 
+    margin-top: 15px; 
+    font-family:Arial, Helvetica, sans-serif;
+  }
+ .h6{
+  color: darkslategray;
+   margin-left: 50px; 
+   margin-top: 90px;
+   font-size: large;
+ }
+ .sa{
+   font-size: large;
+ }
+
+ .btn {
+  margin-top: 80px; 
+  margin-left: 70px; 
+  background-color:  rgb(248, 90, 33); 
+  color: white;
+  box-shadow: 0px 3px 3px rgb(209, 102, 64) ;
+ }
+ .bg1{
+  width: 30px; 
+  height: 30px; 
+  margin-top: 84px;
+   margin-left: 50px;
+   box-shadow: 0px 3px 3px rgb(209, 102, 64);
+ }
+ li a:not(.active){
+  color: gray;
+ }
+ a .m{
+  color: black;
+}
+.material-icons{
+  margin-top: 83px;
+  margin-left: 40px;
+  background-color: rgb(248, 90, 33);
+  color: white;
+  box-shadow: 0px 3px  3px rgb(209, 102, 64);
+}

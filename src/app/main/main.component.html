@@ -1,0 +1,32 @@
+<div class="body">
+    <div class="container">
+        <div class="row">
+            <h1 style="margin-top: 8px; font-family: fantasy;">City Food</h1>
+            <ul class="nav">
+                <li role="presentation"> <a [routerLink]="['/']" [routerLinkActive]="['active']">Menu</a></li>
+                <li role="presentation"><a [routerLink]="['/package']" [routerLinkActive]="['active']">Package</a></li>
+                <li role="presentation"><a [routerLink]="['/about']" [routerLinkActive]="['active']">About us</a></li>
+                <li role="presentation"><a [routerLink]="['/contact']" [routerLinkActive]="['active']">Contact us</a>
+                </li>
+            </ul>
+        </div>
+
+        <h1>
+            Good food choices are good investments.
+        </h1>
+        <h6 class="sa">
+            There is a powerfull need for symbalism, and that<br> means
+            the architecture have something that <br> appeals to the human heart.
+        </h6>
+        <div class="row" id="order">
+            <button type="submit" class="btn">Order Now</button>
+
+            <h6 class="h6">Watch our story</h6>
+            <a href=""><span class="material-icons">
+                    play_arrow
+                </span></a>
+        </div>
+       
+    </div>
+</div>
+<app-page></app-page>

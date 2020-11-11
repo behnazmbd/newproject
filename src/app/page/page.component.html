@@ -1,0 +1,99 @@
+<div class="body2">
+    <div class="container">
+        <div class="row">
+            <div class="col-6">
+                <img src="\assets\images\img6.jpg" class="img6">
+            </div>
+            <div class="col-6">
+                <div class="a">
+                    <h2>The best comfort food will<br> always be greens cornbread<br> anf fried chiken</h2>
+                    <h5>Lorem ipsom dolor dit omet, consetetur sadipscing elitr, sed diam<br>nonumy eirmodtempor
+                        invidunt ut labore et dolore magna<br>aliquyam erat, sed diam voluptua. At vero eos et accusam
+                        et justo duo dolores et ea rebum. Slet clita kasd
+                        gubergren </h5>
+                </div>
+                <button type="button" class="btn">Know More About Us</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6">
+                <div class="a" style="margin-top: 30px;">
+
+                    <h2>The best comfort food will<br> always be greens cornbread<br> anf fried chiken</h2>
+                    <h5>Lorem ipsom dolor dit omet, consetetur sadipscing elitr, sed diam<br>nonumy eirmodtempor
+                        invidunt ut labore et dolore magna<br>aliquyam erat, sed diam voluptua. At vero eos et accusam
+                        et justo duo dolores et ea rebum. Slet clita kasd
+                        gubergren </h5>
+
+                </div>
+                <button type="button" class="btn">Know More About Us</button>
+            </div>
+            <div class="col-6" style="margin-top: 0px;">
+                <div class="row">
+                    <div class="col-6"><img src="\assets\images\img7.jfif" class="img8"></div>
+                    <div class="col-6"><img src="\assets\images\img8.jfif" class="img7"></div>
+                </div>
+                <div class="row">
+
+                    <div class="col-6"><img src="\assets\images\img10.jfif" class="img9"></div>
+                    <div class="col-6">
+                        <img src="\assets\images\img9.jfif" class="img10"></div>
+                </div>
+            </div>
+        </div>
+        <!----------------------------------------------------------------->
+
+        <div class="section2">
+            <div class="row">
+                <video muted loop class=" col-md-12 media mp4" #vid autoplay>
+                    <source src="/assets/videos/FRUIT.mp4">
+                </video>
+            </div>
+            <div class="row content">
+                <b class=" col-md-6 video-title">
+                    when a man's stomach is full it makes <br>no difference whether he is rich or poor.</b>
+                <p class=" col-md-6 video-des">
+                    Lorem ipsum dolor sit amet,consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
+                    labore et dolore magna.</p>
+
+                <div class="btn-mat">
+                    <a href="" (click)=play()>
+                        <span class="material-icons"> play_arrow </span></a>
+                    <p class="watch"> Watch our story</p>
+                </div>
+            </div>
+
+            <div class="downvideo">
+                <h3>
+                    Explore our foods
+                </h3>
+                <p>Lorem ipsom dolor dit omet, consetetur sadipscing elitr, sed diam<br> nonumy eirmodtempor invidunt ut
+                    labore et dolore magna</p>
+            </div>
+        </div>
+        <!----------------------------------------------------------------->
+        <div class="section3">
+            <div class="row">
+                <div class="col-md-4" *ngFor="let number of foodArray">
+                    <div class="card">
+                        <img class="card-img-top" src="{{number.image}}">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-6">
+                                    <h5 class="card-title" id="name">{{number.name}} </h5>
+                                </div>
+                                <div class="col-6">
+                                    <p class="card-title" id="price">{{number.price}}</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-description">{{number.description}}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="btn " id="btn-price">Explore all food</button>
+        </div>
+    </div>
+</div>
